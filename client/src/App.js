@@ -15,7 +15,7 @@ class App extends Component {
           <Route exact={true} path="/" component={Dashboard}/>
           <Route path="/callback" component={Login}/>
         </div>
-        <Footer><a href="/">GitHub</a></Footer>
+        <Footer><a href="https://github.com/joshualoehr/spotify-tag-manager">GitHub</a></Footer>
       </div>
     );
   }
